@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+:root {
+  --margin: 1rem 0rem;
+}
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+img {
+  height: 100vh;
+  width: auto;
+}
+.content {
+  padding: 5rem;
+}
+
+h2 {
+  color: #f65299;
+  margin: var(--margin);
+}
+
+.user-details {
+  padding: 2rem 0;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 5rem;
+}
+
+label {
+  color: black;
+  font-size: 0.75rem;
+}
+
+input {
+  box-sizing: border-box;
+  width: 200px;
+  height: 25px;
+}
+input:focus {
+  outline: #f65299;
+  border: 2px solid #f65299;
+  box-shadow: 0 2px 4px rgba(68, 64, 64, 0.6);
+}
+input .error {
+  outline: red;
+  border: 2px solid red;
+}
+
+button {
+  border: solid 2px #f65299;
+  border-radius: 7%;
+  color: white;
+  background-color: #f65299;
+  padding: 0.5rem 1.5rem;
+  margin: var(--margin);
+}
+button:hover {
+  color: #f65299;
+  background-color: white;
+}
+
+#incorrect-password {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: red;
+}
+
+b {
+  color: #f65299;
+}

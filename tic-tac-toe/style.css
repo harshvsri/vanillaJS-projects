@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #35363a;
+  color: white;
+}
+
+.heading {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.reset-btn {
+  font-size: 1.5rem;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+
+  margin: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding: 5px;
+}
+
+.board-cell {
+  border: 2px solid white;
+  border-radius: 1rem;
+  background-color: rgb(195, 191, 185);
+  height: 5rem;
+  width: 5rem;
+
+  font-size: 70px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  font-size: 2rem;
+  margin: 1rem;
+}
