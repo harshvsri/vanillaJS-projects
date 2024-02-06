@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.main-heading {
+  background-color: #1ba0ee;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.add-book {
+  grid-column: 1/2;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+
+  margin: 1rem;
+  padding: 2rem;
+  border: 5px solid #1ba0ee;
+  border-radius: 1rem;
+}
+.display-books {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+form div {
+  margin: 1rem 0;
+}
+
+.book-card {
+  color: white;
+  text-align: left;
+
+  border: 1px solid #1ba0ee;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+
+  background-color: #1ba0ee;
+}
+.book-content {
+  margin: 0.5rem;
+}
+
+.delete-button {
+  text-align: right;
+}
+
+label {
+  /* display: block; */
+}
+input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+button {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #1ba0ee;
+  border: none;
+  border-radius: 1rem;
+}
