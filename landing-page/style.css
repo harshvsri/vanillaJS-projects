@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+}
+
+.half-width {
+  width: 50%;
+}
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
+
+/** HEADER */
+header {
+  background-color: #1f2937;
+  padding: 1rem 10rem;
+}
+
+.navbar-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  gap: 2rem;
+}
+
+/** BODY */
+
+.intro-section {
+  background-color: #1f2937;
+  padding: 5rem 10rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-text {
+  padding-right: 5rem;
+}
+
+.intro-heading {
+  font-size: 48px;
+}
+
+.header-btn {
+  background-color: #3882f6;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5%;
+}
+
+.intro-image {
+  background-color: #6d747d;
+  height: 200px;
+  width: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-section {
+  background-color: white;
+  /* text-align: center; */
+  padding: 3rem;
+}
+
+.info-heading {
+  font-size: 32px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 10rem 5rem 10rem;
+}
+
+.info-card {
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+
+.empty-box {
+  width: 200px;
+  height: 200px;
+  border: solid #3882f6;
+  border-radius: 5%;
+}
+
+.info-para {
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.quote {
+  padding: 5rem 20rem;
+}
+
+.quote-para {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quote-h3 {
+  text-align: right;
+  padding: 1rem;
+}
+
+.action-content {
+  background-color: #3882f6;
+  margin: 5rem 10rem;
+  padding: 3rem 5rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+.body-btn {
+  background-color: #3882f6;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: solid white;
+  border-radius: 5%;
+}
+/** FOOTER */
+
+footer {
+  background-color: #1f2937;
+  padding: 2rem;
+  text-align: center;
+}
